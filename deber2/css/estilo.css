@@ -1,0 +1,21 @@
+.nprimo{
+	
+	color:red;
+}
+
+table ,td{
+
+
+border:2px solid;
+
+text-align: center;
+
+font-family: Georgia;
+
+font-size: 20px;
+
+}
+
+td:hover{
+	background-color: yellow;
+}
