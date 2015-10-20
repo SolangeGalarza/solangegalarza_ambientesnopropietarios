@@ -232,7 +232,7 @@ echo'</tr>';
 echo'<tr>';
 echo'<td> </td>';
 echo'<td>
-<a href="pagina_deber.php" id="enlance" >¿Por que debo proporcionar esta informacion?</a><br>
+<a href="pagina_deber.php.html" id="enlance" >¿Por que debo proporcionar esta informacion?</a><br>
 <input type="submit" class="registrarse" value="Regístrate" />
 
      
