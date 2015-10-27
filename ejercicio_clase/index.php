@@ -9,6 +9,10 @@ echo 'h1{
   text-align: center;
 }
 
+body{
+  background-color:#c8c8c8;
+}
+
 
 table, th, td{
   border: 1px solid #000000;
@@ -59,6 +63,19 @@ while($i < 10){
 
 echo '</tbody>';
 
+echo'<td><label for="nombre">Nombre:</label></td>';
+echo'<td><div class="input-container">';
+echo'<input name="nombre" id="nombre" type="text" />
+        </div></td>';
+
+echo'</tr>';
+echo'<tr>';
+
+echo'<td><label for="apellido">Apellido</label></td>';
+echo'<td><div class="input-container">';
+echo'<input name="apellido" id="apellido" type="text" />
+        </div></td>';
+echo'</tr>';
 
 
 echo '</table>';
