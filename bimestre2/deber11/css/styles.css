@@ -1,0 +1,269 @@
+.navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.active>a:focus, .navbar-default .navbar-nav>.active> a:hover {
+    color: #ffffff;
+    background-color: #12a3d6;
+    background-image: url(../imagenes/hover.png); 
+    background-repeat: no-repeat;
+    background-position: bottom;
+}
+
+.navbar-nav>li>a {
+    padding-top: 15px;
+    padding-bottom: 31px;
+}
+
+.btn-blog{
+	margin-top: 10px;
+	background-color: #f98561;
+	color: #ffffff;
+	border: none;
+
+}
+.btn-search{
+	background-color: transparent;
+	border: none;
+}
+
+.btn-search:hover{
+	opacity: 0.8;
+	background-color: transparent;
+}
+
+.carousel-indicators .active {
+    width: 14px;
+    height: 14px;
+    margin: 0;
+    background-color:#729fcf;
+    text-align: right;
+    border: 3px solid #F98561;
+}
+
+.carousel-caption {
+    position: absolute;
+    right: 15%;
+    left: 15%;
+    top :20%;
+    color: gray;
+    text-align: center;
+    font-family:verdana;
+    
+}
+
+.container-fluid {
+    padding-right: 15px;
+    padding-left: 100px;
+    margin-right: auto;
+    margin-left: auto;
+
+}
+
+.carousel-indicators li {
+
+    background-color:#adadad;
+    width: 14px;
+    height: 14px;
+    border: 1px  #000000;
+
+
+    }
+
+.carousel-indicators{
+    text-align:right;
+
+}
+
+.btn-carousel{
+background-color: #f98561;
+color: #ffebca;
+width:200px;
+height:40px; 
+font-size:18px; 
+
+}
+
+#contenido{
+
+   
+
+}
+
+.btn-portfolio{
+    background-color:#2190c1;
+    color:white;
+    margin-top: 20px;
+}
+
+#Portafolio{
+
+    background-color:#2e3e4f
+}
+
+#titulo
+{
+    color:#c2725c;
+}
+
+#informacionP
+{
+    color:white;
+    font-size:12px;
+
+}
+
+  #Cuadro
+{
+    background-color:#bebebe;
+    border: 8px solid #ffffff;
+    height:222px;
+    width:260px;
+    top:15%;
+    position: relative;
+   }
+#imgPorfolio{
+    position: absolute;
+    left: 40%;
+    top: 40%;
+}
+
+#tituloOffer
+{
+    color:#2190c1;
+    text-align:center;
+}
+
+#informacionOffer
+{
+
+    text-align:center;
+}
+
+#Oferta
+{
+    background-color:#f4f4f4
+}
+
+#descripcionOffer
+{
+    font-size:12px;
+}
+
+#desTiOffer
+{
+    color:#2b99cc;
+}
+
+#offerBoton{
+    text-align:right;
+}
+
+.btn-offerBoton
+{
+    background-color:#2190c1;
+    color:white;
+} 
+
+#parrTestimonios
+{
+    font-size:25px;
+    text-align:center;
+}
+
+#pie
+{
+    background-color:#2e3e4f;
+}
+#letFoot
+{
+    color:#c2725c;
+}
+
+#informacionPie
+{
+    font-size:12px;
+    color:#a3afb2;
+}
+.lnkPie
+{
+    font-size:12px;
+}
+#lblEmail
+{
+    color:#2190c1
+}
+
+.btn-Email
+{
+    background-color:#2190c1;
+    color:white;
+}
+
+#txtEmail
+{
+    width:230px;
+}
+
+#formEmail
+{
+    margin-top: 10px;
+    text-align:right;
+}
+
+#contenidoCol
+{
+    margin-top: 30px;
+    margin-bottom: 31px;
+    position:relative;
+     }
+
+.btn-our-service{
+background-color: #2190c1;
+    color: #ffffff;
+    border: none;
+    font-family: verdana;
+    width: 150px;
+    height: 35px;
+    position: relative;
+    bottom: 15px;
+    left: 500px;
+    font-size: 18px;
+}
+
+#PTitulo
+{
+      margin-top: 30px;
+       margin-bottom: 31px;
+
+
+}
+
+#resumen
+{
+     margin-bottom: 31px;
+}
+
+#Informacion
+{
+    margin-top: 30px;
+
+
+}
+
+#Test1
+{
+    position: relative;
+    left: 409px;
+    margin-bottom: 31px;
+}
+
+#Test2
+{
+    position: relative;
+    left: 125px;
+    margin-bottom: 31px;
+}
+
+#Test3
+{
+    position: relative;
+    left: -159px;
+    margin-bottom: 31px;
+}
