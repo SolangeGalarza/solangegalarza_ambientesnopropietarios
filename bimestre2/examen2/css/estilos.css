@@ -1,0 +1,99 @@
+form {  
+    padding: 20px 0px 0px 30px;   /* margen con valores: arriba - derecha - abajo - izquierda */ 
+    font-family:verdana,arial; 
+    font-size:9pt; 
+    width: 500px;
+    height: 500px;
+ 
+    position: absolute;
+    top: 20%;
+    left:35%;
+} 
+
+#estudiante{
+     padding: 20px 0px 0px 30px;   /* margen con valores: arriba - derecha - abajo - izquierda */ 
+    font-family:verdana,arial; 
+    font-size:9pt; 
+    width: 500px;
+    height: 500px;
+ 
+    position: absolute;
+    top: 20%;
+    left:35%;
+} 
+
+.datos {  
+    font-family:verdana,arial;     /* tipo de letra */  
+    width: 500px;                 /* anchura de campos de formulario */  
+    font-size:8pt;                /* tamaño de la letra*/   
+    color:#008000;                 /* color del texto */   
+    border: 1px dotted red;        /* color del borde puede ser solid ó dotted */   
+    background-color:eff1f6;    /* color del fondo */   
+}  
+
+#inicio{ 
+    
+    color:#0000FF; 
+    background:#A4C1FF; 
+    border:0px; 
+    width:120px; 
+    height:25px; 
+} 
+
+#inicio1{
+    font-size:25px; 
+    font-family:Verdana,Helvetica; 
+    font-weight:bold; 
+    text-align: center;
+
+}
+body{     
+
+background-color:#EFF1F6;
+color :#0E385F;
+text-align:center;
+}
+
+#form { 
+
+width: 500px;
+height: 500px;
+ 
+  position: absolute;
+  top: 20%;
+  left:35%;
+
+}
+
+#titulo1{
+    
+    text-align:left;
+    color :#0E385F;
+    font-size:20px;
+}
+
+#enlance{
+    color :#3B59AE;
+    font-size:13px;
+
+}
+
+#btnRegistrar{
+    
+    background-color:#669E51;
+    color:white;
+    width:150;
+    height:35;
+}
+
+#txtBox
+{
+    border-color:#6D83B2;
+    border-style:solid;
+    width:300;
+    height:35;
+}
+
+
+
+

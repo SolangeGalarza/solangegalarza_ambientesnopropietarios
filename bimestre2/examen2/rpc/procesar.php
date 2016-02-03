@@ -16,12 +16,14 @@ $conn = new mysqli('localhost', 'root',"", "examen2");
     $q_insert = "INSERT INTO estudiante(nombres,apellidos,email,contrasena)
                   VALUES ('$nombres','$apellidos', '$email','$contrasena')";
 
+
     $res = $conn->query($q_insert);
 
     if(!$res){
       $result = 'Existi&oacute; un error al insertar.' . $conn->error;
     } else {
       $result = 'Mensaje enviado con &eacute;xito.';
+
     }
   }
 }

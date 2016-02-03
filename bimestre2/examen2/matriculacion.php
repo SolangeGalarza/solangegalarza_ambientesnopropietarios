@@ -1,5 +1,14 @@
 <?php
-
+//creamos la sesion
+session_start();
+//validamos si se ha hecho o no el inicio de sesion correctamente
+//si no se ha hecho la sesion nos regresará a login.php
+if(!isset($_SESSION['email'])) 
+{
+  header('Location: index.php'); 
+  exit();
+}
+ 
 $conn = new mysqli('localhost' , 'root' , '', 'examen2');
 if ($conn->connect_error) die($conn ->connect_error);
 
@@ -38,6 +47,7 @@ $conn ->close();
 <meta charset="utf-8"> 
 <title> Examen 2</title>
 <link href="css/bootstrap.min.css" rel="stylesheet">
+<link rel="stylesheet" type="text/css" href="css/estilos.css">
 <link rel="stylesheet" href="http://jqueryvalidation.org/files/demo/site-demos.css">
 
  
@@ -50,7 +60,7 @@ $conn ->close();
 <div class="col-md-12">
 
 
-<p id ='inicio'><b>Bienvenido en esta pantalla puedes matricularte</b></p>
+<p id ='inicio1'><b>Bienvenido en esta pantalla puedes matricularte</b></p>
 
 
 </div>

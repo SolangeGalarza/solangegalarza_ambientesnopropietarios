@@ -1,4 +1,6 @@
 <?php
+
+
 if($_POST){
   $email = $_POST['email'];
   $contrasena = md5($_POST['contrasena']);
@@ -11,7 +13,7 @@ $filas=mysql_num_rows ($consulta);
 
 if(($email=="")||($contrasena==""))
 {
-	 echo htmlentities('Ingrese email y contraseña');
+   echo htmlentities('Ingrese usuario y contraseña');
 }
 
 else
@@ -20,14 +22,14 @@ else
 if($filas!=0)
 {
 
-	 $_SESSION['email'] = $email;
+   $_SESSION['email'] = $email;
      $_SESSION['contrasena'] = $contrasena;
      http_redirect('matriculacion.php');
 }
 
 else
 {
-	echo htmlentities('Email y/o contraseña incorrectos');
+  echo htmlentities('Usuario y/o contraseña incorrectos');
 }
 
                        
@@ -43,7 +45,9 @@ else
 <meta charset="utf-8"> 
 <title> Examen 2</title>
 <link href="css/bootstrap.min.css" rel="stylesheet">
+<link rel="stylesheet" type="text/css" href="css/estilos.css">
 <link rel="stylesheet" href="http://jqueryvalidation.org/files/demo/site-demos.css">
+
 
  
 </head>
@@ -55,7 +59,7 @@ else
 <div class="col-md-12">
 <div class="col-md-3">
 
-<p id ='inicio'><b>Inicia sesión para matricularte</b></p>
+<p id ='inicio1'><b>Inicia sesión para matricularte</b></p>
 
 
 </div>
@@ -94,13 +98,13 @@ else
 </div>
 </div>
 
-
+</div>
+<br>
 <div class="row" id="fila3">
-
+<br>
 <div class="col-md-3">
 </div>
-
-<div class="col-md-3">
+<div class="col-md-6">
 <input type="submit" value="Iniciar Sesion" id="inicio">
 <div class="col-md-3">
 </div>
@@ -113,11 +117,11 @@ else
 
 </form>
 
+
 <script type="text/javascript" src="js/jquery.js"></script>
 <script src="js/bootstrap.min.js"></script>
 <script type="text/javascript" src="js/jquery.validate.js"></script>
 <script type="text/javascript" src="js/additional-methods.js"></script>
 <script type="text/javascript" src="js/main.js"></script>
-
 </body>
 </html>

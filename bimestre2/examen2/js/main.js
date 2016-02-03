@@ -1,3 +1,4 @@
+
 $(document).ready(function(){
 
  $("form#estudiante").validate({
@@ -74,5 +75,45 @@ messages:{
 
  });
 
+
+
+$('#registrarme').on('click',  function(event) {
+  event.preventDefault();
+  if($('form#estudiante').valid())
+  {
+    
+    $.ajax({
+      url: 'rpc/procesar.php',
+      type: 'post',
+      data: {
+        nombres: $('form#estudiante #nombres').val(),
+        apellidos:$('form#estudiante #apellidos').val(),
+        email: $('form#estudiante #email').val(),
+        contrasena:$('form#estudiante #txtcontrasena').val()
+},
+    })
+    .done(function(msg) {
+      		if(msg == "Mensaje enviado con éxito.")
+       		 $('#mensaje').addClass('alert-success');
+      		else
+       		 $('#mensaje').addClass('alert-danger');
+
+      		$('#mensaje').html(msg);
+      			console.log("success");
+    })
+    		.fail(function() {
+      			console.log("error");
+    		})
+    		.always(function() {
+      
+      		console.log("complete");
+    		});
+    
+
+
+  }
+
+
+});
 
 })

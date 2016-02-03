@@ -4,6 +4,7 @@
 <meta charset="utf-8"> 
 <title> Examen 2</title>
 <link href="css/bootstrap.min.css" rel="stylesheet">
+<link rel="stylesheet" type="text/css" href="css/estilos.css">
 <link rel="stylesheet" href="http://jqueryvalidation.org/files/demo/site-demos.css">
 
  
@@ -16,7 +17,7 @@
 <div class="col-md-12">
 <div class="col-md-3">
 
-<p id ='registrate'><b>Regístrate para poder matricularte</b></p>
+<p id ='inicio1'><b>Regístrate para poder matricularte</b></p>
 
 
 </div>
@@ -103,10 +104,8 @@
 <div class="col-md-3">
 </div>
 
-<div class="col-md-3">
-<button  id="registrarme" name="registrarme"> Registrarme</button>
-<div class="col-md-3">
-</div>
+
+<input type="button"  id="registrarme" name="registrarme"  value ="Registrarme"  />
 <input type="button"onclick=" location.href='index.php'" class="cancelar" value="Cancelar">
 </div>
 </div>
