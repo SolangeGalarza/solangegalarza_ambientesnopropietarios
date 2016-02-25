@@ -1,0 +1,80 @@
+body{
+
+	background-color:#f0f0f0;
+}
+
+
+#divBoton{
+
+}
+
+#materias_registradas{
+	
+	color: blue;
+    text-decoration: none;
+    font-family: Century;
+    font-size: 15px;
+}
+
+#lstMaterias
+{
+	
+	color: blue;
+    text-decoration: none;
+    font-family: Lucida;
+    font-size: 20px;
+}
+
+
+#divNivel{
+
+	
+}
+
+#titMaterias
+{
+	color: purple;
+    text-decoration: none;
+    font-family: Lucida;
+    font-size: 25px;
+}
+#niv{
+	color: purple;
+    text-decoration: none;
+    font-family: Lucida;
+    font-size: 20px;
+    
+}
+#nivel{
+	
+	color: purple;
+    text-decoration: none;
+    font-family: Lucida;
+    font-size: 20px;
+}
+    
+#btnGuardarMaterias{
+    color: #fff;
+    background-color: purple;
+    border-color: pink;
+    width:150px;
+    font-size: 20px;
+   
+}
+
+#btnCancelar    {
+    color: #fff;
+    background-color: purple;
+    border-color: pink;
+    font-size: 20px;
+     width:150px;
+    
+}
+
+
+h1{
+	font-family: Lucida;
+	font-size: 40px;
+	font-style: bold;
+	color: blue;
+}
